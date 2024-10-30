@@ -38,11 +38,11 @@ O **Chess System Java** é um sistema básico de xadrez de console que implement
    - Navegue até o diretório do projeto.
    - Compile os arquivos `.java` dentro da pasta `src`:
      ```bash
-     javac src/application/*.java src/boardgame/*.java src/chess/*.java src/chess/pieces/*.java
+     javac -d bin src/application/*.java src/boardgame/*.java src/chess/*.java src/chess/pieces/*.java
      ```
    - Execute o projeto:
      ```bash
-     java src/application/Program
+     java -cp bin application.Program
      ```
 
 ## Estrutura do Projeto
