@@ -57,7 +57,7 @@ chess-system-java/
 │   │
 │   ├── boardgame/
 │   │   ├── Board.java             # Implementação do tabuleiro
-│   │   ├── BoardException.java     # Exceções específicas do tabuleiro
+│   │   ├── BoardException.java    # Exceções específicas do tabuleiro
 │   │   ├── Piece.java             # Classe base para todas as peças
 │   │   └── Position.java          # Controle de posições no tabuleiro
 │   │
